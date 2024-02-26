@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3441a9dd-6cd6-425d-ace7-c95932a7aec1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +53,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\components\Tour" />
+      <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\components" />
+      <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\pages\Tour" />
+      <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\components\DescriptionBox" />
+      <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\pages\Tour-FrontPage" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708913886765</updated>
       <workItem from="1708913887809" duration="1140000" />
-      <workItem from="1708915041377" duration="256000" />
+      <workItem from="1708915041377" duration="2134000" />
     </task>
     <servers />
   </component>
