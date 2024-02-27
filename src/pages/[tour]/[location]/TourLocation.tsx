@@ -1,18 +1,17 @@
 import fs from 'fs'
 import path from 'path'
 import { GetServerSideProps } from 'next'
-import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 type TourLocationProps = {
     tourData: {
         description: string
-    }
+    },
+    tour: string,
+    location: string
 }
 
-export default function TourLocationPage({ tourData }: TourLocationProps) {
-    const router = useRouter()
-    const { tour, location } = router.query as { tour: string, location: string }
+export default function TourLocationPage({ tourData, tour, location }: TourLocationProps) {
     const previousLocation = Number(location) - 1
     const nextLocation = Number(location) + 1
 
@@ -57,6 +56,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         return {
             props: {
                 tourData,
+                tour,
+                location
             },
         }
     } catch (error) {
