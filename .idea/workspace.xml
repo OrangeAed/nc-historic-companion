@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3441a9dd-6cd6-425d-ace7-c95932a7aec1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/[tour]/FrontPage/Tour-FrontPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/old_page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Tours.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/tours.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Tour/FrontPage/Tour-FrontPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Tour/Location/TourLocation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[tour]/[location]/TourLocation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[tour]/FrontPage/Tour-FrontPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[tour].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[tour]/[location]/TourLocation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[tour]/[location]/TourLocation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;basic__visitor__ui&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.6.1&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.20&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ajsim/WebstormProjects/nc-historic-companion&quot;,
@@ -60,11 +60,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\pages" />
       <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\components\Tour" />
       <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\components" />
       <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\pages\Tour" />
       <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\components\DescriptionBox" />
-      <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\pages\Tour-FrontPage" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +78,9 @@
       <workItem from="1708913887809" duration="1140000" />
       <workItem from="1708915041377" duration="2607000" />
       <workItem from="1708971458901" duration="371000" />
-      <workItem from="1708993560527" duration="1632000" />
+      <workItem from="1708993560527" duration="2854000" />
+      <workItem from="1709060576508" duration="153000" />
+      <workItem from="1709060747941" duration="240000" />
     </task>
     <servers />
   </component>

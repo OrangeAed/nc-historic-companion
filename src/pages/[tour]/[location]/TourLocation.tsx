@@ -41,8 +41,12 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         const jsonData = fs.readFileSync(filePath, 'utf8')
         const tours = JSON.parse(jsonData).tours
 
+        // Convert the tour and location parameters to strings that match the keys in the JSON file
+        const tourKey = `tour ${tour}`
+        const locationKey = `location ${location}`
+
         // Access the correct tour and location
-        const tourData = tours[tour]?.locations[location]
+        const tourData = tours[tourKey]?.locations[locationKey]
 
         if (!tourData) {
             return {
