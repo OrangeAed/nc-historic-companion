@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3441a9dd-6cd6-425d-ace7-c95932a7aec1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/[tour]/FrontPage/Tour-FrontPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Tours.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/tours.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Tour/FrontPage/Tour-FrontPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Tour/Location/TourLocation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[tour]/[location]/TourLocation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "create-next-app",
-    "javascript.nodejs.core.library.configured.version": "21.6.1",
-    "javascript.nodejs.core.library.typings.version": "20.11.20",
-    "last_opened_file_path": "C:/Users/ajsim/WebstormProjects/nc-historic-companion",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/ajsim/.nvm/versions/node/v21.6.1/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "C:\\Users\\ajsim\\WebstormProjects\\nc-historic-companion\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;21.6.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ajsim/WebstormProjects/nc-historic-companion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/ajsim/.nvm/versions/node/v21.6.1/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ajsim\\WebstormProjects\\nc-historic-companion\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ajsim\WebstormProjects\nc-historic-companion\src\components\Tour" />
@@ -71,7 +76,9 @@
       <option name="presentableId" value="Default" />
       <updated>1708913886765</updated>
       <workItem from="1708913887809" duration="1140000" />
-      <workItem from="1708915041377" duration="2134000" />
+      <workItem from="1708915041377" duration="2607000" />
+      <workItem from="1708971458901" duration="371000" />
+      <workItem from="1708993560527" duration="1632000" />
     </task>
     <servers />
   </component>

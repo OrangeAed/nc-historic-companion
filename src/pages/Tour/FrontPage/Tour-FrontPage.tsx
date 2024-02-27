@@ -1,1 +1,0 @@
-// Front page of a tour here
