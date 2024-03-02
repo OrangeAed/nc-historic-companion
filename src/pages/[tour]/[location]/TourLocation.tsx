@@ -16,23 +16,35 @@ export default function TourLocationPage({ tourData, tour, location }: TourLocat
     const nextLocation = Number(location) + 1
 
     return (
-        <div>
-            <h1>Tour {tour} Location {location}</h1>
-            <p>{tourData.description}</p>
-            {previousLocation >= 1 && (
-                <Link href={`/tour/${tour}/${previousLocation}`}>
-                    <a>Previous location</a>
-                </Link>
-            )}
-            <Link href={`/tour/${tour}/${nextLocation}`}>
-                <a>Next location</a>
-            </Link>
+        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+            <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+                <h1 className="mb-6 text-6xl font-bold">
+                    Tour {tour} Location {location}
+                </h1>
+                <p className="mb-6 text-2xl">
+                    {tourData.description}
+                </p>
+                <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+                    {previousLocation >= 1 && (
+                        <Link href={`/tour/${tour}/${previousLocation}`}>
+                            <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+                                <h3 className="text-2xl font-bold">Previous location</h3>
+                            </a>
+                        </Link>
+                    )}
+                    <Link href={`/tour/${tour}/${nextLocation}`}>
+                        <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+                            <h3 className="text-2xl font-bold">Next location</h3>
+                        </a>
+                    </Link>
+                </div>
+            </div>
         </div>
     )
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-    const { tour, location } = context.params as { tour: string, location: string }
+    const {tour, location} = context.params as { tour: string, location: string }
 
     try {
         // Fetch the data for this tour and location from a local JSON file
